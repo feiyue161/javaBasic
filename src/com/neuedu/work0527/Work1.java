@@ -14,8 +14,8 @@ public class Work1 {
 //        rectangle.height=0;
 //
 //
-        /*无参*/
-        rectangle.Rectangle();
+//        /*无参*/
+//        rectangle.Rectangle();
 
 
 
