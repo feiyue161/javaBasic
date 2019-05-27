@@ -13,6 +13,6 @@ public class Work9 {
             }
             i++;
         }
-        System.out.println("和为："+a);
+        System.out.println("和为：" + a);
     }
 }

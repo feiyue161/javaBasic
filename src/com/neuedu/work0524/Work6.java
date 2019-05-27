@@ -15,13 +15,8 @@ public class Work6 {
         int d = result%10;
         if (a==d&&b==c){
             System.out.println("是回文数");
-
-
         }else {
             System.out.println("不是回文数");
-
-
         }
-
     }
 }
