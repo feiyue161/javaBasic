@@ -9,11 +9,15 @@ public class Work2 {
      *
      * */
     public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        int result = input.nextInt();
-//        int a = result;
         Circle circle = new Circle();
-//        circle.radius = "a";
-        System.out.println("周长");
+        System.out.println("请输入半径（不要输入负值）");
+        Scanner input = new Scanner(System.in);
+        int radius = input.nextInt();
+        circle.setRadius(radius);
+        double result = circle.perimeter();
+        System.out.println("圆的周长："+result);
+        double result1=circle.area();
+        System.out.println("圆的面积："+result1);
+
     }
 }

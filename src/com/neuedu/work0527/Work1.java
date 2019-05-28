@@ -10,15 +10,9 @@ public class Work1 {
      * */
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle(); //创建长方形对象
-        rectangle.width=0;
-//        rectangle.height=0;
-//
-//
-//        /*无参*/
-//        rectangle.Rectangle();
-
-
-
+        rectangle.perimeter(2, 2);
+        rectangle.area(3, 3);
+        System.out.println(rectangle);
 
 
     }
