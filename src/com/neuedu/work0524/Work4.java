@@ -5,7 +5,7 @@ public class Work4 {
     public static void main(String[] args) {
         long i = 1;
         for (int a = 1; a < 20; a++) {
-//            i = a * i;
+//            i = i*a;
             i *=a;
         }
         System.out.println(i);
