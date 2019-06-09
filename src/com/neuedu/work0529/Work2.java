@@ -1,5 +1,7 @@
 package com.neuedu.work0529;
 
+import com.neuedu.work0528.Student;
+
 public class Work2 {
     /*
      * 定义一个乐器类 Instrument 有乐器演奏方法play（）
@@ -38,13 +40,16 @@ public class Work2 {
        chang(a);
         System.out.println(a);*/
 
+
+
     }
 
    /* public static void test(Instrument i) {
         i.play();
     }*/
-   public static void chang(int test){
-       test = 20;
+   public static void chang(int a){
+       a = 20;
+//       return a;
    }
 
 }

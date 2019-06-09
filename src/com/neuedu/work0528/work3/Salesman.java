@@ -1,6 +1,6 @@
-package com.neuedu.work0528;
+package com.neuedu.work0528.work3;
 
-public class Work3 {
+public class Salesman extends Work3 {
     /*
      *  假设要为某个公司编写雇员工资支付程序。
      *  一般工人（Worker）按每月工作的天数计算工资；
@@ -10,18 +10,28 @@ public class Work3 {
      *  要求描述所有雇员的共同特性（如姓名，性别，出生日期，员工类别）
      *  含有计算工资的方法computeSalay（）， 所有员工用该方法计薪。
      * */
-    public static void main(String[] args) {
-        Worker worker = new Worker();
-        worker.setName("张三");
-        worker.setNum(22);
-        worker.setSalary(150);
-        worker.computeSalay();
+    private float basic;
+    private float exsalary;
 
-        Salesman salesman = new Salesman();
-        salesman.setName("李四");
-        salesman.setBasic(3000);
-        salesman.setExsalary(1000);
-        salesman.computeSalay();
+    public float getBasic() {
+        return basic;
+    }
+
+    public void setBasic(float basic) {
+        this.basic = basic;
+    }
+
+    public float getExsalary() {
+        return exsalary;
+    }
+
+    public void setExsalary(float exsalary) {
+        this.exsalary = exsalary;
+    }
+
+    @Override
+    public void computeSalay() {
+        System.out.println("销售人员的薪资："+basic+exsalary);
 
     }
 }

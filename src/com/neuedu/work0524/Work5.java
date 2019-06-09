@@ -7,7 +7,7 @@ public class Work5 {
     public static void main(String[] args) {
         int i = 0;
         int j = 0;
-        for (int a=1;a<101;a++){
+        for (int a=1;a<=100;a++){
             if (a%2==0){
                 i +=a;
             } else{

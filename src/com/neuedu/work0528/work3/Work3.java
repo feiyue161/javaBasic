@@ -1,6 +1,6 @@
-package com.neuedu.work0528;
+package com.neuedu.work0528.work3;
 
-public class Worker {
+public abstract class Work3 {
     /*
      *  假设要为某个公司编写雇员工资支付程序。
      *  一般工人（Worker）按每月工作的天数计算工资；
@@ -13,8 +13,6 @@ public class Worker {
     private String name;
     private String sex;
     private String date;
-    private int num;/*上班的天数*/
-    private float salary;/*每天的工资*/
 
     public String getName() {
         return name;
@@ -39,39 +37,12 @@ public class Worker {
     public void setDate(String date) {
         this.date = date;
     }
-
-    public int getNum() {
-        return num;
-    }
-
-    public void setNum(int num) {
-        this.num = num;
-    }
-
-    public float getSalary() {
-        return salary;
-    }
-
-    public void setSalary(float salary) {
-        this.salary = salary;
-    }
-
-    public void computeSalay(){
-        System.out.println(num*salary);
+    public Work3(){
 
     }
+    /*抽象方法*/
+    public abstract void computeSalay();
+    public static void test(){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 }
