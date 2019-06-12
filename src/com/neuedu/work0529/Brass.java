@@ -5,4 +5,5 @@ public class Brass extends Instrument {
     public void play() {
         System.out.println("Brass 演奏方式");
     }
+
 }

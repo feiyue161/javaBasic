@@ -29,9 +29,8 @@ public class Salesman extends Work3 {
         this.exsalary = exsalary;
     }
 
-    @Override
-    public void computeSalay() {
-        System.out.println("销售人员的薪资："+basic+exsalary);
-
-    }
+//    @Override
+//    public void computeSalay() {
+//        System.out.println("销售人员的薪资："+basic+exsalary);
+//    }
 }

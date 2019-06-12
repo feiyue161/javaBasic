@@ -34,14 +34,12 @@ public class Worker extends Work3 {
         this.salary = salary;
     }
 
-    @Override
-    public void computeSalay() {
-        System.out.println("一般工人的薪资："+num*salary);
-
-    }
+//    @Override
+//    public void computeSalay() {
+//        System.out.println("一般工人的薪资："+num*salary);
+//
+//    }
     public static void test(){
-        System.out.println("test");
+        System.out.println("worker");
     }
-
-
 }

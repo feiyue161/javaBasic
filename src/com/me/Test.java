@@ -1,19 +1,14 @@
 package com.me;
 
 public class Test {
-    private final int a=0;
-
 
     public static void main(String[] args) {
-//        int a = 3,b = 2,c=1;
-//        c=c/(int)(a/(float)b);
-//        System.out.println(c);
+       int arr[]={1,2,3,4,5};
+       int sum =0;
+       for(int x:arr)sum+=x;
+        System.out.println(sum);
 
-//        char a ='A';
-//        char b ='B';
-//        int c =a+b;
-//        System.out.println(c);
 
-    }
+}
 
 }

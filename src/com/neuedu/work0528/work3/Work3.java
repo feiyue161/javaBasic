@@ -1,6 +1,6 @@
 package com.neuedu.work0528.work3;
 
-public abstract class Work3 {
+public  class Work3 {
     /*
      *  假设要为某个公司编写雇员工资支付程序。
      *  一般工人（Worker）按每月工作的天数计算工资；
@@ -41,8 +41,9 @@ public abstract class Work3 {
 
     }
     /*抽象方法*/
-    public abstract void computeSalay();
+//    public abstract void computeSalay();
     public static void test(){
+        System.out.println("Work3");
 
     }
 }
