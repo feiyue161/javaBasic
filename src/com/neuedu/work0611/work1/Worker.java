@@ -1,6 +1,6 @@
 package com.neuedu.work0611.work1;
 
-public class Work {
+public class Worker {
     private int age;
     private String name;
     private double salary;
@@ -29,19 +29,23 @@ public class Work {
         this.salary = salary;
     }
 
-    public Work(String name, int age, double salary) {
+    public Worker(String name, int age, double salary) {
         this.name = name;
         this.age = age;
         this.salary = salary;
     }
 
+    public Worker() {
+    }
 
     @Override
     public String toString() {
-        return "工人 姓名： " + name + "  年龄：" + age + "  工资：" + salary;
+        return "Worker{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
     }
-
-
 
 
 }

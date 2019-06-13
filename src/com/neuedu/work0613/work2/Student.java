@@ -1,4 +1,4 @@
-package com.neuedu.work0611.work2;
+package com.neuedu.work0613.work2;
 
 public class Student {
     private String name;
